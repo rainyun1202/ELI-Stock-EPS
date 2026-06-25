@@ -1,13 +1,14 @@
-```markdown
 # 📈 ELI Stock EPS & Valuation Tracker (美股核心估值追蹤系統)
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B.svg)](https://streamlit.io/)
 [![yfinance](https://img.shields.io/badge/yfinance-Data-green.svg)](https://pypi.org/project/yfinance/)
 
-透過 Python 與 Streamlit 打造的輕量級資料視覺化與匯出工具，專為快速批量獲取美股核心基本面數據所設計。一鍵抓取多檔股票的最新價格、本益比 (Trailing & Forward P/E) 以及每股盈餘 (EPS TTM)，並自動匯出成排版精美的 Excel 報表。
+透過 Python 與 Streamlit 打造的輕量級資料視覺化與匯出工具，專為快速批量獲取美股核心基本面數據所設計。
+一鍵抓取多檔股票的最新價格、本益比 (Trailing & Forward P/E) 以及每股盈餘 (EPS TTM)，
+並自動匯出 Excel 報表。
 
-🌐 **[點此體驗線上版本 (Live Demo) ](這裡替換成你的 Streamlit 專屬網址)**
+🌐 **[https://eli-stock-eps.streamlit.app/]**
 
 ---
 
