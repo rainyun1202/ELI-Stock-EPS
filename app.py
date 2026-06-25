@@ -21,14 +21,14 @@ def get_text_width(text):
 # --- 頁面基本設定 ---
 st.set_page_config(page_title="美股估值追蹤儀表板", layout="wide")
 
-st.title("📈 美股核心估值與 EPS 追蹤系統")
-st.markdown("點擊下方按鈕獲取最新即時數據，抓取完成後即可預覽並下載排版優化後的 Excel 檔案。")
+st.title("📈 指定美股核心估值與 EPS 追蹤系統")
+st.markdown("點擊下方按鈕獲取最新即時數據，抓取完成後即可預覽並下載 Excel 檔案。")
 
 # 1. 準備你的股票代號清單
 tickers_list = [
     'AAL', 'AAPL', 'AMD', 'AMZN', 'ARM', 'ASML', 'AVGO', 'BABA', 'BAC', 'BIIB',
     'BNTX', 'BP', 'CCL', 'COIN', 'DELL', 'DIS', 'ENPH', 'ENVX', 'INTC', 'JPM',
-    'META', 'MRNA', 'MSFT', 'MU', 'NVAX', 'NVDA', 'ON', 'ORCL', 'OXY', 'PLTR',
+    'META', 'MRNA', 'MRVL', 'MSFT', 'MU', 'NVAX', 'NVDA', 'ON', 'ORCL', 'OXY', 'PLTR',
     'PLUG', 'QCOM', 'RGTI', 'SEDG', 'SHOP', 'SMCI', 'SOUN', 'SWKS', 'TEM', 'TSLA',
     'TSM', 'UAL', 'XYF'
 ]
@@ -102,8 +102,8 @@ if st.button("🚀 開始抓取最新數據", type="primary"):
         
     # 6. 建立 Excel 下載按鈕
     st.download_button(
-        label="📥 下載資料為優化版 Excel 檔案",
+        label="📥 下載資料為 Excel 檔案",
         data=excel_buffer.getvalue(),
-        file_name="ELI_stock_EPS_Formatted.xlsx",
+        file_name="ELI_stock_EPS.xlsx",
         mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
     )
