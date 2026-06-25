@@ -20,9 +20,6 @@
     * 本益比 (Trailing P/E)
     * 前瞻本益比 (Forward P/E)
     * 近四季每股盈餘 (Diluted EPS TTM)
-* 📥 **智慧排版 Excel 匯出**：底層整合 `openpyxl` 引擎，匯出的 Excel 檔案會**自動適應文字寬度**（精準辨識中英文長度）並全面套用「微軟正黑體」，下載後零加工即可直接用於匯報。
-* 🛡️ **穩定防封鎖架構**：棄用傳統易失效的網頁爬蟲 (Web Scraping)，全面改用 `yfinance` 串接官方級別資料流，完美避開 Cookie 驗證與反爬蟲阻擋。
-
 ---
 
 ## 💻 本地端安裝與執行 (Local Installation)
@@ -72,21 +69,5 @@ streamlit run app.py
 tickers_list = [
     'AAPL', 'MSFT', 'NVDA', 'TSLA', 'YOUR_TICKER_HERE'
 ]
-
-```
-
----
-
-## 📄 授權條款 (License)
-
-此專案採用 MIT 授權條款 - 詳情請參見 [LICENSE](https://www.google.com/search?q=LICENSE) 檔案。
-
-```
-
-***
-
-**💡 幾個小建議：**
-1. **補上截圖**：強烈建議你在 GitHub 頁面上傳一張這個網頁應用程式運作時的截圖（或是匯出的漂亮 Excel 截圖），然後在 `[點此體驗線上版本]` 下方加入語法 `![App Screenshot](你的圖片連結)`。人們通常是視覺動物，看到精美的截圖會大大增加點擊與使用的意願。
-2. **替換連結**：記得把上方草稿中 `(這裡替換成你的 Streamlit 專屬網址)` 換成你實際發佈到 Streamlit Community Cloud 的 URL。
 
 ```
