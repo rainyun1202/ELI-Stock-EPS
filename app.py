@@ -64,9 +64,9 @@ st.markdown("""
 
 # 1. 準備股票代號清單
 tickers_list = [
-    'AAL', 'AAPL', 'AMD', 'AMZN', 'ARM', 'ASML', 'AVGO', 'BABA', 'BAC', 'BIIB',
-    'BNTX', 'BP', 'CCL', 'COIN', 'DELL', 'DIS', 'ENPH', 'ENVX', 'INTC', 'JPM',
-    'META', 'MRNA', 'MSFT', 'MU', 'NVAX', 'NVDA', 'ON', 'ORCL', 'OXY', 'PLTR',
+    'AAL', 'AAPL', 'AMD', 'AMAT', 'AMZN', 'ARM', 'ASML', 'AVGO', 'BABA', 'BAC', 'BIIB',
+    'BNTX', 'BP', 'CCL', 'COIN', 'DELL', 'DIS', 'ENPH', 'ENVX', 'INTC', 'JPM', 'KLAC',
+    'LRCX', 'META', 'MRNA', 'MSFT', 'MU', 'NVAX', 'NVDA', 'ON', 'ORCL', 'OXY', 'PLTR',
     'PLUG', 'QCOM', 'RGTI', 'SEDG', 'SHOP', 'SMCI', 'SOUN', 'SWKS', 'TEM', 'TSLA',
     'TSM', 'UAL', 'XYF'
 ]
